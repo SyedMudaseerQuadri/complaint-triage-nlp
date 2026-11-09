@@ -1,0 +1,130 @@
+{
+  "n_test": 3600,
+  "n_errors": 625,
+  "top_confusions": [
+    {
+      "true": "money_transfer",
+      "predicted": "bank_account",
+      "count": 47
+    },
+    {
+      "true": "bank_account",
+      "predicted": "money_transfer",
+      "count": 44
+    },
+    {
+      "true": "credit_reporting",
+      "predicted": "debt_collection",
+      "count": 33
+    },
+    {
+      "true": "debt_collection",
+      "predicted": "personal_loan",
+      "count": 30
+    },
+    {
+      "true": "bank_account",
+      "predicted": "credit_card",
+      "count": 27
+    },
+    {
+      "true": "vehicle_loan",
+      "predicted": "personal_loan",
+      "count": 25
+    },
+    {
+      "true": "credit_card",
+      "predicted": "bank_account",
+      "count": 23
+    },
+    {
+      "true": "debt_collection",
+      "predicted": "credit_reporting",
+      "count": 21
+    },
+    {
+      "true": "personal_loan",
+      "predicted": "vehicle_loan",
+      "count": 21
+    },
+    {
+      "true": "credit_card",
+      "predicted": "personal_loan",
+      "count": 20
+    }
+  ],
+  "examples": [
+    {
+      "complaint_id": "6617249",
+      "true": "money_transfer",
+      "distilbert": "bank_account",
+      "baseline": "bank_account",
+      "confidence": 0.992,
+      "product_field": "Money transfer, virtual currency, or money service",
+      "narrative": "On Saturday XX/XX/2023 I opened a new CD with Synchrony Bank. The funds used to fund the new CD account was an INTERNAL TRANSFER from a Synchrony savings account. The funds were taken out of the savings account immediately and the CD was opened immediately. However the CD was now dated Monday XX/XX/XXXX and not the XXXX. This is not what I wanted as I have CD 's timed for reasons that not important for me to discl..."
+    },
+    {
+      "complaint_id": "7529319",
+      "true": "bank_account",
+      "distilbert": "money_transfer",
+      "baseline": "bank_account",
+      "confidence": 0.987,
+      "product_field": "Checking or savings account",
+      "narrative": "On XX/XX/XXXX, I was supposed to receive a direct deposit from the XXXX XXXX XXXX XXXX. The next day, on XX/XX/XXXX I discovered my account was closed by Wells Fargo. I contacted them and spoke with a represenative that confirmed my direct deposit will be rejected and be sent back to the sender ( XXXX ) in XXXX business days. On Friday, XX/XX/XXXX I contacted XXXX to see if the funds were returned and they were no..."
+    },
+    {
+      "complaint_id": "7374247",
+      "true": "credit_reporting",
+      "distilbert": "debt_collection",
+      "baseline": "debt_collection",
+      "confidence": 0.989,
+      "product_field": "Credit reporting, credit repair services, or other personal consumer reports",
+      "narrative": "I disputed a collection with XXXX, XXXX, XXXX, and National Credit Systems over an alleged debt. I disputed the alleged debt on XX/XX/2023 and as of today XX/XX/2023 I haven't heard from the credit bureaus or National Credit Systems. I have sent 2 round of dispute letters and have been purposely ignored. I requested the following validation of the debt : 1. Your lawful authority to collect without my consent or 2...."
+    },
+    {
+      "complaint_id": "7079948",
+      "true": "debt_collection",
+      "distilbert": "personal_loan",
+      "baseline": "personal_loan",
+      "confidence": 0.994,
+      "product_field": "Debt collection",
+      "narrative": "On XXXX I purchased a washer and dryer from Conn 's Home Plus Appliances located in XXXX, LA. I financed the purchase through Conn 's Home Plus in house finance department for {$2500.00} plus interest for 34 months. My monthly payment was {$110.00}. I set up auto pay through Conn 's Plus web site using my bank 's debit card to be drafted each month on the payment due date. In XX/XX/XXXX, I requested a pay off amou..."
+    },
+    {
+      "complaint_id": "8002502",
+      "true": "bank_account",
+      "distilbert": "credit_card",
+      "baseline": "credit_card",
+      "confidence": 0.992,
+      "product_field": "Checking or savings account",
+      "narrative": "An unauthorized Bank of America business credit card was opened in my name several years ago, subsequently closed. However, this card has inexplicably become linked to my personal account. Over the past five years, Bank of America accessed both my personal and savings accounts, withdrawing over {$20000.00}. This has resulted in significant and irreversible damage to my personal credit. Furthermore, they withdrew f..."
+    },
+    {
+      "complaint_id": "6801346",
+      "true": "vehicle_loan",
+      "distilbert": "personal_loan",
+      "baseline": "personal_loan",
+      "confidence": 0.994,
+      "product_field": "Vehicle loan or lease",
+      "narrative": "I had borrowed money from Lendmark in XXXX, Texas with a title loan but on XX/XX/2023 I got hit and after sending my vehicle to a local auto repair shop I was told on XX/XX/2023 that my vehicle was a loss. Now Lendmark XXXX branch receive the same news via email ( due to the fact their local branch manager informed me via email of this ). She stated that once the check comes in she would contact me so that I can p..."
+    },
+    {
+      "complaint_id": "7029210",
+      "true": "credit_card",
+      "distilbert": "bank_account",
+      "baseline": "credit_card",
+      "confidence": 0.992,
+      "product_field": "Credit card or prepaid card",
+      "narrative": "I was informed that opening a TD checking account and redeeming my points into it would result in double the value. According to a representative, when I claimed my points, I was supposed to receive {$960.00}. However, upon redeeming my points, I only received {$460.00}. I contacted the bank to address this discrepancy, and they acknowledged a system issue and assured me that it would be automatically resolved. De..."
+    },
+    {
+      "complaint_id": "7880635",
+      "true": "debt_collection",
+      "distilbert": "credit_reporting",
+      "baseline": "credit_reporting",
+      "confidence": 0.987,
+      "product_field": "Debt collection",
+      "narrative": "After examining my personal credit report, I have identified certain inaccuracies that could significantly impact my ability to purchase a home. While I understand that errors can occur, these particular mistakes could have detrimental implications. I am familiar with the dispute process and the time constraints that come with an investigation. The following errors have been identified : XXXX XXXX XXXX XXXX XXXX X..."
+    }
+  ]
+}

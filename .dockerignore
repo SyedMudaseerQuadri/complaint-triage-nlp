@@ -1,0 +1,8 @@
+.venv
+.git
+data
+runs
+tests
+reports
+models/distilbert
+__pycache__

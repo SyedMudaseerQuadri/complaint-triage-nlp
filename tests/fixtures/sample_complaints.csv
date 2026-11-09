@@ -1,0 +1,25 @@
+label,narrative
+credit_reporting,There is an account on my credit report that is not mine and the credit bureau refuses to remove it after my dispute.
+credit_reporting,I disputed incorrect late payments on my credit report and the bureau never investigated or sent results.
+credit_reporting,"My credit report shows a wrong address and an old inquiry I never authorized, please correct my report."
+credit_reporting,Equifax is reporting a collection that was paid and my credit score dropped because of this error on my file.
+credit_reporting,The credit reporting agency did not fix the inaccurate information in my credit file within thirty days.
+credit_reporting,Identity theft accounts appear on my credit report and TransUnion will not block the fraudulent information.
+mortgage,My mortgage servicer misapplied my payment and now charges late fees on my home loan every month.
+mortgage,The bank denied my loan modification and is threatening foreclosure on my house despite my hardship letter.
+mortgage,My escrow account was miscalculated and my mortgage payment went up without any proper explanation.
+mortgage,I applied to refinance my home loan and the lender lost my documents and delayed closing for months.
+mortgage,The mortgage company sold my loan and the new servicer does not have my payment history or my escrow balance.
+mortgage,My home loan servicer will not remove private mortgage insurance even though my equity is above twenty percent.
+debt_collection,A debt collector keeps calling me about a debt that is not mine and refuses to send written validation.
+debt_collection,The collection agency called my workplace and threatened to sue me over an old debt past the statute of limitations.
+debt_collection,I received a letter from a collector for a medical bill I already paid and they will not stop contacting me.
+debt_collection,A debt collection company harasses me with calls every day and uses abusive language over an unpaid balance.
+debt_collection,The collector never validated the debt I asked about and continues to demand payment from me.
+debt_collection,I told the collection agency to stop calling and they still contact my family about a debt I do not owe.
+credit_card,My credit card company charged me an annual fee I was never told about and refuses to refund it.
+credit_card,There is a fraudulent charge on my credit card statement and the card issuer denied my dispute.
+credit_card,The credit card issuer raised my interest rate and lowered my credit limit with no notice at all.
+credit_card,I returned the item but my credit card still shows the purchase and the bank will not reverse the charge.
+credit_card,My credit card was closed without warning and I lost my rewards points and cash back balance.
+credit_card,The card company applied my payment late and charged me interest and a late fee on my credit card.
